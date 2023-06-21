@@ -1,7 +1,10 @@
 .start h1 {
+   color: #1b5679;
    font-size: 2.5em;
+   font-weight: 900;
 }
 .start p {
-   color: #ecf20e;
+   color: #ffdd15;
+   font-weight: bold;
    margin-bottom: 2em;
 }

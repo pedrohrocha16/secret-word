@@ -2,15 +2,18 @@ html, body {
    height: 100%;
 }
 body {
-   background: linear-gradient(180deg, rgb(15 91 63)0%, rgb(4 24 0)90%);
-   color: #fff;
+   background-image: url(./bg.jpg);
+   background-size: cover;
+   background-position: center;
+   color: #ffffff;
    font-family: 'Open Sans', sans-serif;
+   font-weight: 400;
    margin: 0;
    padding: 0;
 }
 button {
-   background: #5f4029;
-   color: #fff;
+   background: #fffcb0;
+   color: #006b3a;
    padding: 0 45px;
    border: 2px solid #fff;
    border-radius: 25px;
@@ -22,5 +25,5 @@ button {
    transition: .4s;
 }
 button:hover {
-   background-color: #cc5500;
+   opacity: 1;
 }

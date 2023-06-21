@@ -113,7 +113,7 @@ function App() {
 
       const letrasUnicas = [... new Set(letras)]
         // condioção de vitória
-      if(letrasAdivinhadas.length === letrasUnicas.length) {
+      if(letrasAdivinhadas.length === letrasUnicas.length && gameStage === stages[1].name) {
         //adicionando pontuação
         setPontos((actualScore) => actualScore += 100)
 
@@ -121,7 +121,7 @@ function App() {
           startGame()
       }
 
-    }, [letrasAdivinhadas, startGame, letras])
+    }, [letrasAdivinhadas, startGame, letras, gameStage])
 
 
     
