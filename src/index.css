@@ -2,7 +2,7 @@ html, body {
    height: 100%;
 }
 body {
-   background-image: url(./bg.jpg);
+   background-image: url(./background.jpg);
    background-size: cover;
    background-position: center;
    color: #ffffff;

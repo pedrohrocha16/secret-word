@@ -1,6 +1,6 @@
 .game {
    background: linear-gradient(0deg, rgb(0 140 173 / 76%)45%, rgb(125 216 237 / 48%)100%);
-   height: 774px;
+   height: 100vh;
    width: 100%;
 }
 .game h1 {
